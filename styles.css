@@ -1,3 +1,11 @@
 a {
   cursor: pointer;
 }
+
+ngb-progressbar .progress {
+  width: 300px;
+}
+
+section {
+  padding: 20px;
+}
