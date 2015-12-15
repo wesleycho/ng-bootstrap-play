@@ -35,7 +35,7 @@ export class NgBootstrapApp {
   pageSize: number = 10;
   priorPage: number;
 
-  pageChanged(page) {
+  pageChanged(page: number) {
     this.priorPage = this.newPage || 1;
     this.newPage = page;
   }
